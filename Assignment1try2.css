@@ -1,0 +1,372 @@
+.alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata','Josefin Sans';
+    /* background-color: black; */
+}
+
+
+.headingsection{
+    width: 100vw;
+    background-color: rgb(156, 92, 156);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.header-list{
+    padding-right: 4.78rem;
+}
+
+.logo{
+    padding-left: 60px;
+}
+
+.allcontainer{
+    width:80vw;
+    margin:0 auto;
+    /* background-color: white; */
+}
+
+
+
+
+.headingsection{
+    display: flex;
+    height: 15vh;
+    /* background-color: black; */
+    justify-content: space-between ;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 0 4em;
+    
+}
+
+
+.header-list ul li{
+   
+    display: inline;
+    list-style: none;
+   
+    justify-content: space-evenly   ;
+    padding-left: 2em;
+    
+    
+}
+
+.header-list ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+/* --------For Hover----------- */
+
+.header-list ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:#ccc9ca;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+    
+}
+
+.header-list ul li a:hover::after{
+    width: 100%;
+   
+}
+/* --------------------------------------------------- */
+
+.firstsection{
+
+    background-image:url("images/desktop/image-hero.jpg") ;
+    height: 92vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 6em;
+    padding-top: 9em;
+
+   
+}
+
+
+
+
+.insidebox{
+    
+    /* margin-top: 50px; */
+    margin-left: 7.5em;  
+    
+    /* margin:60px; */
+    
+    
+    
+    color: white;
+    width: 500px;
+    
+    border: 1px solid white;
+    
+}
+
+
+.insidebox p{
+    
+    font-size: 4rem;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+
+/* -------------MiddleContaier--------------- */
+
+.middlecontainer{
+    /* height: 100vh; */
+    padding-top: 8.5em;
+    padding-bottom: 8.5em;
+    /* background-color: orange;     */
+
+    display: flex;
+    
+    position: relative;
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.middleimg{
+    width: 60%;
+}
+.mi{
+    height: 30em;
+    width: 38em;
+    object-fit: cover;
+}   
+.textbox{
+    color: hsl(0, 0%, 0%);
+    /* width: 20%; */
+}
+
+
+
+
+.writtentext{
+    
+    /* margin-top: 25.6%; */
+     /* height: 30%;  */
+    height: 70%;
+    width: 50%;
+    padding: 5.5em 5.5em 0 5.5em;
+    background-color: white;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* left: 12p; */
+}
+
+
+
+.writtentext h4{
+   
+    font-size: 2em;
+ 
+}
+
+.writtentext p{
+    color:hsl(0, 0%, 41%)
+}
+
+
+.creationsection{
+    
+   
+    padding-bottom: 6.5em;
+    background-color: white;
+    
+}
+
+
+.text{
+    padding-bottom: 4em;
+    top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text p{
+   color:black;
+   font-size: 2em;
+   
+}
+
+.text h4{
+    color:black;
+    /* font-size: 1em; */
+    /* font-weight: 100; */
+    
+ }
+
+button{
+    background-color: transparent;
+    border:1px solid black;
+    color: black;
+    padding: 5px 32px 5px 32px;
+    letter-spacing: 3px;
+    text-align: center;
+    
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+.Box-img{
+    /* width: 28.6rem;
+    height: 22.7rem; */
+    object-fit: contain;
+    object-position: top;
+    
+    
+}
+
+.box{
+    display: flex;
+    /* flex-wrap: wrap ; */
+    /* margin-top:30px ; */
+    border: none; 
+    /* display: grid; */
+    /* grid-template-columns: repeat(4 , 1fr); */
+    /* grid-template-columns: repeat(auto , minmax(100px,1fr)); */
+    width: 100%;
+    /* grid-gap: 3vw; */
+    justify-content: space-between;
+    /* height: 50px; */
+    
+}
+
+
+
+.box img:hover{
+    opacity: 0.5;
+}
+
+/* ---------------------------FooterSection------------------------- */
+.footersection{
+    display: flex;  
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+    /* height: 100%; */
+    padding-top: 2rem;
+}
+
+footer i{
+    
+    /* justify-content: space-between; */
+    font-size: 25px;
+    color: #ccc9ca;
+    /* height: 15px; */
+    
+}
+
+.footlogo{
+    
+    height: 25px;   
+    /* display: flex;   */
+    justify-content: space-between;
+}
+
+footer{
+    background-color: black;
+}
+
+.footericons {
+    width: 12vw;
+    padding-left:24px;
+    
+}
+.footericons ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .footer-options{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+.footer-options ul{
+    display: flex;
+}
+
+
+.footer-options ul li{
+    
+    /* padding-bottom:20px; */
+    display: inline;
+    list-style: none;
+   
+    justify-content: space-evenly   ;
+    /* padding-left: 1em; */
+    padding-right: 1em;
+    
+    align-items: center;
+}
+
+.footer-options ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+.footer-options ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:#ccc9ca;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+    
+}
+
+.footer-options ul li a:hover::after{
+    width: 100%;
+   
+}
+
+.footer-options i{
+    font-size: 18px;
+    display: flex;
+    
+}
+

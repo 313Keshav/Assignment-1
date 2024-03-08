@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial','sans-serif';
+    
+}
+.overallContainer{
+    padding-left:170px;
+    
+    
+    margin: 0px;
+}
+#header{
+    /* width:100%; 
+    height: 300px; */
+    background-image: url(images/desktop/image-hero.jpg);
+    background-image: cover;
+    background-position: center;
+    background-color: aqua;
+
+}
+
+    /* .body{
+        background-color: black;
+    } */
+
+
+
+/* .hero{
+    height: 300px;
+    width: 100%;
+}    */
+
+
+
+.logo{
+    /* margin-bottom: 800px; */
+    margin-top: 30px;
+   /* height: 120px; */
+    width: 300px;
+
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}
+
+
+.insidebox{
+     margin-top: 25px;
+    /* margin-left: 60px;   */
+    /* margin:60px; */
+    
+    
+    /* flex-wrap: wrap; */
+    color: white;
+    width: 500px;
+    /* float: center; */
+    border: 1px solid white;
+    
+}
+
+.insidebox p{
+    font-size: 30.5px;
+}
+
+
+.middlecontainer{
+    margin-bottom: 150px;
+    /*  display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 380px;
+    background-color: white; 
+    position: relative;
+     /* text-align: center; */
+    color: white;
+    
+}
+
+/* img{
+    max-width: 100%;
+} */
+.image-interactive{
+    /* padding: 40px; */
+    /* margin-left: 25px; */
+    /* margin-top: 30px; */
+    margin-top: 35px;
+    height: 21.6rem;
+    width: 52rem;
+   margin-right: 500px;
+   border: none;
+    
+}
+
+.textcontainer{
+    
+    margin-right: 100px;
+    position: absolute;
+    /* flex-wrap: wrap; */
+    width: 500px;
+    /* height: 900px; */
+    /* margin-top: 25px;    */
+    bottom:0;
+    right: 0;
+    padding-right: 7%;
+
+    
+}
+
+.describingText{
+    
+    /* display:flex;
+    display: inline-block   ;
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;*/
+    
+    color:#1b1a1a; 
+   
+    font-size: 20px;
+  padding-left: 20px;
+  /* border: 2px solid black;    */
+  background-color: #fff;
+  
+
+}
+
+.describingText h6{
+    font-size:35px ;
+    color:#302e2e;
+
+}
+
+.describingText p{
+    gap:10px;
+    margin-top: 15px;
+
+}
+
+
+
+/* -----------3rd section---------------- */
+
+
+
+.creationcontainer{
+   
+    height: 100%;
+    margin-top: 25px;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: white    ;
+}
+
+.creationText{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.box{
+    /* flex-wrap: wrap;
+    margin-top: 50px; 
+    display: inline-block;
+    height:900px;
+    width: 30%;
+    
+    
+    border: 2px solid black;
+    /* background-color: white; */
+    /* margin-right: 100px; */
+    /* padding: 10px 0px 20px; */
+    
+    border: none; 
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap:   px;
+}
+
+
+
+.Box-img{
+    margin: 40px;
+    height: 280px;
+    width: 145px;
+    background-size:cover;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 5px; */
+}
+ 
+
+
+.footlogo{
+    display: flex;  
+    justify-content: space-between;
+
+}
+
+.icons{
+    margin-top: 35px;
+
+}
+footer {
+    background-color: black;
+    color:white;
+    height: 200px;
+    width: 100vw;
+    /* padding: 20px;    */
+    /* display:flex;    */
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.footer-options{
+    margin-top: 15px;
+    margin: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer i{
+  
+    justify-content: space-between;
+    font-size: 35px;
+    height: 15px;
+    
+}
+
+
+footer ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+
+footer ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}
+
+
+
+
